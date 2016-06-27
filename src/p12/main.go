@@ -1,9 +1,5 @@
 package main
 
-import (
-  "fmt"
-)
-
 func main() {
   var triangularNumber int = 1
   var nextNumber int = 2
@@ -14,7 +10,7 @@ func main() {
     nextNumber++
   }
 
-  fmt.Println(triangularNumber)
+  println(triangularNumber)
 }
 
 func countDivisors(num int) int {
