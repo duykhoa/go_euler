@@ -1,0 +1,1 @@
+docker run -it -v /Users/kevin/Workspace/opensource/go_euler:/go_euler golang:alpine sh
